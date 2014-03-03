@@ -17,6 +17,8 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
+Bundle "scrooloose/nerdtree"
+Bundle "jistr/vim-nerdtree-tabs"
 
 filetype plugin indent on
 
@@ -34,3 +36,6 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<c-t>'],
     \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
     \ }
+
+autocmd VimEnter * NERDTree
+let g:nerdtree_tabs_open_on_console_startup=1
