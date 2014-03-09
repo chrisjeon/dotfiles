@@ -19,6 +19,7 @@ Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
 Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
+Bundle "flazz/vim-colorschemes"
 
 filetype plugin indent on
 
@@ -39,3 +40,5 @@ let g:ctrlp_prompt_mappings = {
 
 autocmd VimEnter * NERDTree
 let g:nerdtree_tabs_open_on_console_startup=1
+
+colorscheme vividchalk 
