@@ -1,6 +1,8 @@
 namespace :db do
   desc 'Generate my custom users'
   task create_users: :environment do
+    User.all.map(&:destroy)
+    ActivityHistory.all.map(&:destroy)
     chris = User.new email: 'chris@ad60.com',
                      password: 'password',
                      password_confirmation: 'password'
@@ -25,5 +27,8 @@ namespace :db do
     customer_profile = FactoryGirl.create(:profile, user: customer)
 
     customer_profile.update_attribute(:gender, 'male')
+
+    FactoryGirl.create(:activity_history, user: customer, 
+      activity: Activity.find(308))
   end
 end
