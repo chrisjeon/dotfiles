@@ -8,7 +8,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-rails'
+Plugin 'vim-ruby/vim-ruby'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'L9'
@@ -46,4 +47,8 @@ let g:ctrlp_prompt_mappings = {
 autocmd VimEnter * NERDTree
 let g:nerdtree_tabs_open_on_console_startup=1
 
+" whitesace dot configuration
+set list listchars=tab:>-,trail:•,precedes:<,extends:>
+
+" vim theme
 colorscheme dark-ruby 
