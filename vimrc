@@ -6,13 +6,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'L9'
 Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'slim-template/vim-slim'
@@ -20,15 +16,14 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+colorscheme Tomorrow-Night-Eighties
 set number
 set expandtab
 set tabstop=2
@@ -44,11 +39,5 @@ let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
     \ }
 
-autocmd VimEnter * NERDTree
-let g:nerdtree_tabs_open_on_console_startup=1
-
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
-
-" vim theme
-colorscheme dark-ruby 
