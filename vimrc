@@ -19,6 +19,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
