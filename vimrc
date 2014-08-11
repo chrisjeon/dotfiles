@@ -24,13 +24,16 @@ Plugin 'tomtom/tcomment_vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme Tomorrow-Night-Eighties
+colorscheme vividchalk
 set number
 set expandtab
+set nowrap
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set autoindent 
+set autoindent
+set copyindent
+set shiftwidth=2
 set colorcolumn=80
 syntax enable
 
