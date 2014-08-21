@@ -24,7 +24,8 @@ namespace :db do
     subscription.update_attribute(:user, customer)
     subscription.make_vip!
 
-    customer_profile = FactoryGirl.create(:profile, user: customer)
+    customer_profile = FactoryGirl.create(:profile, user: customer,
+                                          created_at: Date.today - 5.days)
 
     customer_profile.update_attribute(:gender, 'male')
 

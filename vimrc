@@ -20,11 +20,12 @@ Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'Yggdroot/indentLine'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme vividchalk
+colorscheme kruby
 set number
 set expandtab
 set nowrap
@@ -37,11 +38,7 @@ set shiftwidth=2
 set colorcolumn=80
 syntax enable
 
-" CtrlP settings
-let g:ctrlp_prompt_mappings = {
-    \ 'AcceptSelection("e")': ['<c-t>'],
-    \ 'AcceptSelection("t")': ['<cr>', '<2-LeftMouse>'],
-    \ }
-
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
+
+let g:indentLine_char = '┆'
