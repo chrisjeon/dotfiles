@@ -40,5 +40,3 @@ syntax enable
 
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
-
-let g:indentLine_char = '┆'
