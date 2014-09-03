@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/FireCode Theme/FireCode.tmTheme",
+	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
 	"ignored_packages":
 	[
 		"Vintage"
@@ -10,5 +10,6 @@
 	],
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"update_check": false
 }
