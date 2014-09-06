@@ -40,3 +40,8 @@ syntax enable
 
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
+
+let g:ctrlp_prompt_mappings = {
+  \ 'AcceptSelection("e")': [],
+  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+  \ }
