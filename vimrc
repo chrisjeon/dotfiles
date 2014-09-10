@@ -36,6 +36,7 @@ set autoindent
 set copyindent
 set shiftwidth=2
 set colorcolumn=80
+set hlsearch
 syntax enable
 
 " whitesace dot configuration
