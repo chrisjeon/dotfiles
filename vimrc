@@ -12,10 +12,6 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'slim-template/vim-slim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
 Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'flazz/vim-colorschemes'
@@ -25,7 +21,7 @@ Plugin 'Yggdroot/indentLine'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme kruby
+colorscheme jellybeans
 set number
 set expandtab
 set nowrap
@@ -36,8 +32,10 @@ set autoindent
 set copyindent
 set shiftwidth=2
 set colorcolumn=80
+set splitbelow
+set splitright
+highlight colorcolumn ctermbg=lightgrey guibg=lightgrey
 set hlsearch
-set ignorecase
 syntax enable
 
 " whitesace dot configuration
