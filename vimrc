@@ -17,6 +17,8 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -40,6 +42,11 @@ syntax enable
 
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
 
 let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': [],
