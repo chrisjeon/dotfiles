@@ -31,6 +31,7 @@ set nowrap
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set backspace=2
 set autoindent
 set copyindent
 set shiftwidth=2
