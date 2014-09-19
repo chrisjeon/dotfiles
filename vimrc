@@ -20,6 +20,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -41,11 +42,9 @@ set splitright
 set hlsearch
 syntax enable
 
-" whitesace dot configuration
-set list listchars=tab:>-,trail:•,precedes:<,extends:>
-
 highlight Normal ctermbg=black
 highlight ColorColumn ctermbg=grey
+
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
