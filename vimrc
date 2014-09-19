@@ -24,7 +24,7 @@ Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme Tomorrow-Night
+colorscheme dark-ruby
 set number
 set expandtab
 set nowrap
