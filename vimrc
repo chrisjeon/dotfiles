@@ -24,7 +24,7 @@ Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme jellybeans
+colorscheme Tomorrow-Night-Bright
 set number
 set expandtab
 set nowrap
@@ -38,13 +38,13 @@ set shiftwidth=2
 set colorcolumn=80
 set splitbelow
 set splitright
-highlight colorcolumn ctermbg=lightgrey guibg=lightgrey
 set hlsearch
 syntax enable
 
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
 
+highlight ColorColumn ctermbg=7
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
