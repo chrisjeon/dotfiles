@@ -24,7 +24,7 @@ Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme Tomorrow-Night-Bright
+colorscheme Tomorrow-Night
 set number
 set expandtab
 set nowrap
@@ -45,6 +45,7 @@ syntax enable
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
 
 highlight ColorColumn ctermbg=7
+highlight Normal ctermfg=grey ctermbg=black
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
