@@ -24,7 +24,7 @@ Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme dark-ruby
+colorscheme jellybeans
 set number
 set expandtab
 set nowrap
@@ -44,8 +44,8 @@ syntax enable
 " whitesace dot configuration
 set list listchars=tab:>-,trail:•,precedes:<,extends:>
 
-highlight ColorColumn ctermbg=7
-highlight Normal ctermfg=grey ctermbg=black
+highlight Normal ctermbg=black
+highlight ColorColumn ctermbg=grey
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
