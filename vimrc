@@ -25,7 +25,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme jellybeans
+colorscheme Tomorrow-Night
 set number
 set expandtab
 set nowrap
