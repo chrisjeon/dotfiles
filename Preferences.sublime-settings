@@ -1,15 +1,17 @@
 {
-	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"itg_small_tabs": true,
 	"rulers":
 	[
 		80
 	],
 	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "itg.flat.dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false
 }
