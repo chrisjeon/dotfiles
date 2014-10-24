@@ -14,4 +14,11 @@ set fish_theme robbyrussell
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
 
-set TERM screen-256color 
+set TERM screen-256color
+set --export PATH /usr/local/bin /usr/local/sbin $PATH
+set EDITOR subl -w
+
+set -g default-shell /usr/bin/fish
+set -g default-command /usr/bin/fish
+
+alias ls='gls -U --color'
