@@ -17,9 +17,6 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'Yggdroot/indentLine'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()            " required
@@ -44,11 +41,6 @@ syntax enable
 
 highlight Normal ctermbg=black
 highlight ColorColumn ctermbg=grey
-
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-let g:UltiSnipsEditSplit="vertical"
 
 let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': [],
