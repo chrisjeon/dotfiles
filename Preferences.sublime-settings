@@ -1,6 +1,6 @@
 {
-	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
-	"font_size": 10,
+	"color_scheme": "Packages/Boron Color Scheme/Boron.tmTheme",
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -11,7 +11,7 @@
 		80
 	],
 	"tab_size": 2,
-	"theme": "itg.flat.dark.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false
 }
