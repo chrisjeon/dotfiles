@@ -18,6 +18,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'elixir-lang/vim-elixir'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
