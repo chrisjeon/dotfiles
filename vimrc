@@ -14,16 +14,18 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'slim-template/vim-slim'
 Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'flazz/vim-colorschemes'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme wombat256i
+let base16colorscheme=256
+colorscheme base16-default
+set background=dark
 set number
 set expandtab
 set nowrap
