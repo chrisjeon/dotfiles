@@ -19,6 +19,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'chriskempson/base16-vim'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
