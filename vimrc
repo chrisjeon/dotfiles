@@ -1,3 +1,4 @@
+let base16colorspace=256  " Access colors present in 256 colorspace
 set shell=/bin/bash
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -24,9 +25,7 @@ Plugin 'tpope/vim-fugitive'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-let base16colorscheme=256
 colorscheme base16-default
-set background=dark
 set number
 set expandtab
 set nowrap
@@ -44,7 +43,6 @@ set hlsearch
 set ignorecase
 syntax enable
 
-highlight Normal ctermbg=black
 highlight ColorColumn ctermbg=grey
 
 let g:ctrlp_prompt_mappings = {
