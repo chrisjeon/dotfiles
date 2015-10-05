@@ -21,11 +21,12 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-endwise'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme base16-default
+colorscheme base16-eighties
 set background=dark
 set number
 set expandtab
