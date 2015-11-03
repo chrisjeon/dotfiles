@@ -43,6 +43,9 @@ set splitbelow
 set splitright
 set hlsearch
 set ignorecase
+set nobackup
+set nowb
+set noswapfile
 syntax enable
 
 highlight ColorColumn ctermbg=grey
