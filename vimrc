@@ -10,7 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'kien/ctrlp.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'slim-template/vim-slim'
 Plugin 'heartsentwined/vim-emblem'
@@ -49,6 +48,11 @@ set noswapfile
 syntax enable
 
 highlight ColorColumn ctermbg=grey
+
+" Speed highlighting up
+set nocursorcolumn
+set nocursorline
+syntax sync minlines=256
 
 let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': [],
