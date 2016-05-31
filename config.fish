@@ -14,12 +14,8 @@ set fish_theme robbyrussell
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
 
-set -g default-terminal 'xterm-256color'
 set --export PATH /usr/local/bin /usr/local/sbin /Users/chrisjeon/.composer/vendor/bin $PATH
 set EDITOR subl -w
-
-set -g default-shell /usr/bin/fish
-set -g default-command /usr/bin/fish
 
 set -x NVM_DIR ~/.nvm
 source ~/.config/fish/nvm-wrapper/nvm.fish
@@ -27,3 +23,5 @@ source ~/.config/fish/nvm-wrapper/nvm.fish
 alias ls='gls -U --color'
 
 eval sh $HOME/.config/base16-shell/base16-eighties.dark.sh
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
