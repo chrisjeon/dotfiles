@@ -21,6 +21,7 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mxw/vim-jsx'
+Plugin 'rhysd/vim-crystal'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
