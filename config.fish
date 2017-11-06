@@ -14,7 +14,7 @@ set fish_theme robbyrussell
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
 
-set --export PATH /usr/local/bin /usr/local/sbin /Users/chrisjeon/.composer/vendor/bin $PATH
+set --export PATH /usr/local/bin /Users/chrisjeon/.composer/vendor/bin $PATH
 set EDITOR subl -w
 
 set -x NVM_DIR ~/.nvm
@@ -25,3 +25,5 @@ alias ls='gls -U --color'
 eval sh $HOME/.config/base16-shell/base16-eighties.dark.sh
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
+set --export PATH (brew --prefix qt@5.5)/bin $PATH
