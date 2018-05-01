@@ -59,3 +59,7 @@ let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': [],
   \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
   \ }
+
+" Make `jj` and `jk` throw you into normal mode
+inoremap jj <esc>
+inoremap jk <esc>
