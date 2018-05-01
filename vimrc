@@ -1,5 +1,5 @@
 let base16colorspace=256
-set shell=/bin/bash
+set shell=/usr/local/bin/fish
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
