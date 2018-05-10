@@ -63,3 +63,6 @@ let g:ctrlp_prompt_mappings = {
 " Make `jj` and `jk` throw you into normal mode
 inoremap jj <esc>
 inoremap jk <esc>
+
+" Disable beeping
+set noeb vb t_vb=
