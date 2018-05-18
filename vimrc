@@ -1,5 +1,6 @@
-let base16colorspace=256
-set shell=/usr/local/bin/fish
+let base16colorspace=256  " Access colors present in 256 colorspace
+set termguicolors
+set shell=/bin/bash
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -26,7 +27,7 @@ Plugin 'rhysd/vim-crystal'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme base16-eighties
+colorscheme base16-material-darker
 set background=dark
 set number
 set expandtab
