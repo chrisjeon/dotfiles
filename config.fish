@@ -18,9 +18,11 @@ alias ls='gls -U --color'
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
 set --export PATH (brew --prefix qt@5.5)/bin $PATH
-rvm default
+
+set --export PATH /opt/local/bin /opt/local/sbin $PATH
 
 # Base16 Shell
-if status --is-interactive
-    eval sh $HOME/.config/base16-shell/scripts/base16-material-darker.sh
-end
+# if status --is-interactive
+#   eval sh $HOME/.config/base16-shell/scripts/base16-material-darker.sh
+# end
+
