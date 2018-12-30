@@ -4,25 +4,24 @@ set shell=/bin/bash
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'tpope/vim-rails'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'slim-template/vim-slim'
-Plugin 'mustache/vim-mustache-handlebars'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'Yggdroot/indentLine'
-Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'elixir-lang/vim-elixir'
-Plugin 'chriskempson/base16-vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'mxw/vim-jsx'
+Plug 'tpope/vim-rails', { 'for': 'ruby' }
+Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffeescript' }
+Plug 'terryma/vim-multiple-cursors'
+Plug 'slim-template/vim-slim', { 'for': 'slim' }
+Plug 'mustache/vim-mustache-handlebars', { 'for': 'handlebars' }
+Plug 'tomtom/tcomment_vim'
+Plug 'Yggdroot/indentLine'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+Plug 'chriskempson/base16-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'mxw/vim-jsx', { 'for': 'react' }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 
-call vundle#end()            " required
+call plug#end()            " required
 filetype plugin indent on    " required
 
 colorscheme base16-material-darker
