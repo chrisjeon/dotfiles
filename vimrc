@@ -13,7 +13,6 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'slim-template/vim-slim'
-Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'Yggdroot/indentLine'
@@ -22,7 +21,6 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mxw/vim-jsx'
-Plugin 'rhysd/vim-crystal'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
