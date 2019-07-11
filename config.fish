@@ -8,10 +8,16 @@ set fish_theme robbyrussell
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
 
+if not functions -q fisher
+    set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
+    curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
+    fish -c fisher
+end
+
 set EDITOR subl -w
 
 set -x NVM_DIR ~/.nvm
-source ~/.config/fish/nvm-wrapper/nvm.fish
+# source ~/.config/fish/nvm-wrapper/nvm.fish
 
 alias ls='gls -U --color'
 
