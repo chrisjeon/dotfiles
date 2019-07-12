@@ -6,22 +6,23 @@ filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'tpope/vim-rails', { 'for': 'ruby' }
-Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffeescript' }
+Plug 'tpope/vim-rails'
+Plug 'vim-ruby/vim-ruby'
+Plug 'kchmck/vim-coffee-script'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'slim-template/vim-slim', { 'for': 'slim' }
-Plug 'mustache/vim-mustache-handlebars', { 'for': 'handlebars' }
+Plug 'slim-template/vim-slim'
 Plug 'tomtom/tcomment_vim'
 Plug 'Yggdroot/indentLine'
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+Plug 'elixir-lang/vim-elixir'
 Plug 'chriskempson/base16-vim'
 Plug 'tpope/vim-fugitive'
-Plug 'mxw/vim-jsx', { 'for': 'react' }
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'tpope/vim-sensible'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()            " required
+
 filetype plugin indent on    " required
 
 colorscheme base16-material-darker
@@ -64,3 +65,4 @@ inoremap jk <esc>
 
 " Disable beeping
 set noeb vb t_vb=
+
