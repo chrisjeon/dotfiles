@@ -21,6 +21,7 @@ Plug 'tpope/vim-sensible'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'posva/vim-vue'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()            " required
 
