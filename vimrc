@@ -1,5 +1,9 @@
 let base16colorspace=256  " Access colors present in 256 colorspace
-set termguicolors
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 set shell=/bin/bash
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -27,8 +31,11 @@ call plug#end()            " required
 
 filetype plugin indent on    " required
 
-colorscheme base16-material-darker
+" colorscheme base16-material-darker
+let g:airline_theme='one'
+colorscheme one
 set background=dark
+
 set number
 set expandtab
 set nowrap
@@ -47,7 +54,6 @@ set ignorecase
 set nobackup
 set nowb
 set noswapfile
-syntax enable
 
 highlight ColorColumn ctermbg=grey
 
@@ -62,4 +68,3 @@ inoremap jk <esc>
 
 " Disable beeping
 set noeb vb t_vb=
-
