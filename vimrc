@@ -19,13 +19,15 @@ Plug 'tomtom/tcomment_vim'
 Plug 'Yggdroot/indentLine'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'elixir-lang/vim-elixir'
-Plug 'chriskempson/base16-vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'posva/vim-vue'
 Plug 'sheerun/vim-polyglot'
+
+" Color Schemes
+Plug 'chriskempson/base16-vim'
 
 call plug#end()            " required
 
