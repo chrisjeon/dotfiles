@@ -28,15 +28,16 @@ Plug 'sheerun/vim-polyglot'
 
 " Color Schemes
 Plug 'chriskempson/base16-vim'
+Plug 'kaicataldo/material.vim'
 
 call plug#end()            " required
 
 filetype plugin indent on    " required
 
 " colorscheme base16-material-darker
-let g:airline_theme='one'
-colorscheme one
 set background=dark
+let g:material_theme_style = 'darker'
+colorscheme material
 
 set number
 set expandtab
