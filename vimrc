@@ -10,20 +10,13 @@ filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'tpope/vim-rails'
-Plug 'vim-ruby/vim-ruby'
-Plug 'kchmck/vim-coffee-script'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'slim-template/vim-slim'
 Plug 'tomtom/tcomment_vim'
 Plug 'Yggdroot/indentLine'
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'elixir-lang/vim-elixir'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
-Plug 'mxw/vim-jsx'
-Plug 'pangloss/vim-javascript'
-Plug 'posva/vim-vue'
 Plug 'sheerun/vim-polyglot'
 
 " Color Schemes
