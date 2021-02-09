@@ -27,10 +27,8 @@ call plug#end()            " required
 
 filetype plugin indent on    " required
 
-" colorscheme base16-material-darker
 set background=dark
-let g:material_theme_style = 'darker'
-colorscheme material
+colorscheme base16-material-darker
 
 set number
 set expandtab
@@ -51,8 +49,6 @@ set nobackup
 set nowb
 set noswapfile
 
-highlight ColorColumn ctermbg=grey
-
 " Speed highlighting up
 set nocursorcolumn
 set nocursorline
@@ -64,3 +60,7 @@ inoremap jk <esc>
 
 " Disable beeping
 set noeb vb t_vb=
+
+let &t_SI.="\e[6 q" "SI = INSERT mode
+let &t_SR.="\e[4 q" "SR = REPLACE mode
+let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
