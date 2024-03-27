@@ -17,6 +17,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'sheerun/vim-polyglot'
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 
 " Color Schemes
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -62,3 +63,10 @@ set noeb vb t_vb=
 let &t_SI.="\e[6 q" "SI = INSERT mode
 let &t_SR.="\e[4 q" "SR = REPLACE mode
 let &t_EI.="\e[2 q" "EI = NORMAL mode (ELSE)
+
+" Vim Clap
+let g:clap_layout = { 'relative': 'editor' }
+" Open files
+nnoremap <Leader>f :Clap files<CR>
+" Search in the current buffer
+nnoremap <Leader>g :Clap grep<CR>
